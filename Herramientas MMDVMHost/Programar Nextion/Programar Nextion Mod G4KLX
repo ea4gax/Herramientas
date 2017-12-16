@@ -1,0 +1,11 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Programar Nextion Mod G4KLX
+Name=Editar Programar Nextion Mod G4KLX
+Comment=Programar Nextion Mod G4KLX
+Exec=sh -c 'cd /home/pi/MMDVMHost/Nextion_G4KLX; python ./nextion.py NX3224T024.tft /dev/ttyUSB0'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/rt3.png
+Name[es_ES]=Mod G4KLX_24 Por USB0
+Comment[es_ES]=Programar Nextion Mod G4KLX

@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Editar Config.h ACM0
+Name=Editar Config.h ACM0
+Comment=Editar Config.h ACM0
+Exec=sh -c 'cd /home/pi/MMDVM_HS_ACM0; nano Config.h'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/rt3.png
+X-KeepTerminal=true

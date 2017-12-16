@@ -1,0 +1,11 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Actualizar Linux
+Name=Actualizar linux
+Comment=Brandmeister
+Exec=sh -c 'sudo apt-get upgrade'
+Terminal=true
+Type=Application
+Icon=/home/pi/MMDVMHost/Images/ALL.bmp
+
+X-KeepTerminal=true

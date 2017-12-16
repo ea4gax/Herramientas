@@ -1,0 +1,11 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Actualizar DMRIds.dat
+Name=Actualizar DMRIds.dat
+Comment=Actualizar DMRIds.dat
+Exec=sh -c 'cd /home/pi/MMDVMHost; sudo ./DMRIDUpdate.sh'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/BM.png
+
+X-KeepTerminal=true

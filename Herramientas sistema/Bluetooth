@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Bluetooth
+Name=Bluetooth
+Comment=Bluetoothr
+Exec=sh -c 'bluedevil-wizard'
+Terminal=false
+Type=Application
+Icon=/home/pi/botones/Bluetooth.png
+X-KeepTerminal=false

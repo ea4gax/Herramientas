@@ -1,0 +1,17 @@
+1 - Primero tenemos que actualizar la carpeta md380tools. Abrimos la ventana de carpetas (pulsado icono que tenemos a la derecha del icono del terminar), escribimos en la parte de arriba /home/pi.
+
+2 - Nos fijamos en la carpeta md380tools, damos un click sobre el, con el botón derecho desplegamos un submenú, pulsamos  sobre la opción open in terminal, se nos abrirá una consola con la ruta que nos interesa.
+
+3 - Escribimos el comando git pull, (Si nos diera fallos al después de escribir git pull, le metemos el comando make clean, nos hará una limpieza, luego seguimos con git pull), dejamos que acabe, escribimos el comando make, dejamos que finalice.
+Ya tenemos actualizada la carpeta md380tools, esto se hace para que nos baje la última versión de firmware.
+    
+4 - El siguiente paso es pasar ese firmware al walkie. Conectaremos el cable, seguidamente hay que ponerlo en modo programación de la siguiente manera, con el wakie apagado pulsamos a la vez las teclas ptt y botón de arriba y encendemos el wakie, veremos que el led de arriba parpadeará de rojo a verde.
+
+5 - Ahora vamos de nuevo a la consola que hemos dejado abierta (recordemos que tenemos que esta en la ruta /home/pi/md380tools, escribiremos los siguientes comando según sea nuestra walkie CON o SIN gps.
+
+    make flash // Walkie SIN gps
+    make flash_S13 //Walkie CON gps
+    
+Tardará unos minutos, si todo ha ido bien el mismo walkie se reiniciará solo.
+El sigue paso seria actualizar la base de datos con el cable conectado y el walkie encendido normal, abriremos el icono "Actualizar base de datos", se abrirá una consola y se empezará actualizar, cuando termine se cerrará la ventada sola.
+Ahora tenemos que coger el walkie nos iremos a la carpeta md380tools que la tendremos en el menú Utilities y nos vamos al menú 4 "Show Calls" y marcamos la opción TA & UserDB.

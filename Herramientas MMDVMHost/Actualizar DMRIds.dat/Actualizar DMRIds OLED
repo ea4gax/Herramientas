@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Actualizar DMRIds.dat OLED
+Name=Actualizar DMRIds.dat OLED
+Comment=Actualizar DMRIds.dat OLED
+Exec=sh -c 'cd /home/pi/MMDVMHost-devel; sudo ./DMRIDUpdate.sh'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/BM.png
+Name[es_ES]=Actualizar DMRIds.dat OLED/NEXTION

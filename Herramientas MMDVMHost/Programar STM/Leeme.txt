@@ -1,0 +1,14 @@
+- Añadida Herramienta para programar el STM, situada en la carpeta MMDVM_HS, ruta: /home/pi/MMDVM_HS_ACMO/AMA0.
+Seguir el manual mmdvm_pizero.pdf, páginas 9 y 10. Sólo será necesario conectar el conversor USB to TTL a los pines de la placa "SERIAL AUR" de la siguiente manera:
+  TXD --- RXD
+  RXD --- TXD
+  GND --- GND
+  +5  --- VCC (Hay opción a 3v3)
+
+FORMA AUTOMATICA:
+Lo primero hay que cambiar el jumper pegado al botón RESET  de posición, por defecto
+está en posición 0, lo cambiaremos a posición 1, seguidamente pulsaremos el botón RESET.
+A continuación ejecutaremos el icono según vayamos a utilizar nuestro hotspot, AMA0 si vamos a utilizar los gpio y el ACMO si lo vamos a utilizar conectado a un USB. Podremos editar el fichero config.h si fuera necesario.
+
+FORMA MANUAL:
+Abrimos una consola, (en remoto o el local) escribiremos cd /home/pi/ MMDVM_HS_AMAO/,  o cd /home/pi/ MMDVM_HS_ACM0, según lo deseemos programar, pulsamos el botón RESET y escribimos el comando sudo make serial devser=/dev/ttyS1, ttyS1 es el puerto que se usa si tenemos el STM soldado en la placa, si no nos funcionara, (sin tener ningún dispositivo conectado al puerto usb), probaremos con el puerto ttyUSB0, si lo tenemos ocupado usaremos el ttyUSB1, si nos queremos asegurar que puertos tenemos activos, podemos usar el comando ls /dev.

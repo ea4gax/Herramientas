@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Programar STM para AMA0
+Name=Editar Programar STM para AMA0
+Comment=Programar STM para AMA0
+Exec=sh -c 'cd /home/pi/MMDVM_HS_AMA0; sudo make serial devser=/dev/ttyS1'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/rt3.png
+Name[es_ES]=Programar STM para AMA0

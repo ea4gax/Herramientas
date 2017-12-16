@@ -1,0 +1,19 @@
+Herramientas de sistema:
+
+- Actualizar linux: Ejecutamos el icono haciendo doble click sobre el, se nos abrirá una consola y se bajará los últimos paquetes, cuando termine se cerrará la ventana automáticamente.
+Podemos actualizar nuestro sistema haciendo doble click en el icono Software Updater.
+
+- Como actualizar BlueDV for linux: Hay que seguir los pasos que nos muestra el manual. Actualmente está puesta la versión 1.0.0.9388, soporta AMBE3000.
+
+- Configurar wifi: Haciendo doble click sobre el icono, se nos abrirá la ventana de 
+configuración.
+
+- Centro de software de Lubuntu: Nos podremos bajar multitud de aplicaciones fácilmente.
+
+- Vaciar papelera: Vaciado de papelera automáticamente, (se cerrará la ventana sola).
+
+- Cambiar contraseña root, pi y vnc server: Podemos cambiar la contraseña de pi, root y vnc server, abriendo el icono correspondiente.
+
+- Posibilidad de conectarse un sistema bluetooch.
+
+- Añadido icono para instalar paquetes llamado Synactic.

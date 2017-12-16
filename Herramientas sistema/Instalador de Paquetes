@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Instalar Paquetes
+Name=Instalar Paquetes
+Comment=Instalar Paquetes
+Exec=sh -c 'sudo synaptic'
+Terminal=false
+Type=Application
+Icon=/home/pi/MMDVMHost/Images/ALL.bmp
+X-KeepTerminal=true

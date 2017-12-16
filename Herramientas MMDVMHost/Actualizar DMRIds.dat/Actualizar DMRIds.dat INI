@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Actualizar DMRIds.dat INI
+Name=Actualizar DMRIds.dat INI
+Comment=Actualizar DMRIds.dat INI
+Exec=sh -c 'cd /home/pi/ea5sw/MMDVMHost-ini; sudo ./DMRIDUpdate.sh'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/BM.png
+X-KeepTerminal=true

@@ -1,0 +1,11 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Mod G4KLX Por S2
+Name=Mod G4KLX Por S2
+Comment=Programar Nextion Mod G4KLX_24
+Exec=sh -c 'cd /home/pi/ea5sw/MMDVMHost-ini/Nextion_EA5SW; python ./nextion.py NX3224T024.tft /dev/ttyS2'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/rt3.png
+Name[es_ES]=Mod G4KLX_24 Por S2
+Comment[es_ES]=Mod G4KLX_24 Por S2

@@ -1,0 +1,9 @@
+ACTUALIZAR BLUEDV:
+Nos bajamos la nueva versión de la siguiente página: http://software.pa7lim.nl/BlueDV/BETA/Linux/.
+subimos el fichero zip mediante nuestro ftp server a /home/pi.
+Abrimos una consola en remoto y nos conectamos mediante ssh y entraremos al directorio /home/pi (comando: cd /home/pi)
+Ponemos el siguiente comando en consola: sudo unzip BlueDV-Linux-09349-BETA.zip -d /usr/local/bluedv, (el nombre del zip
+puede variar según la versión).
+Nos preguntará si queremos sustituir todo el contenido de la carpeta, escribimos la palabra A (all)
+Y ya tenemos actualizado nuestro Bluedv.
+73!!!

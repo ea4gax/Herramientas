@@ -1,0 +1,11 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Mod EA4GAX_24 Por S2
+Name=Mod EA4GAX_24 Por S2
+Comment=Mod EA4GAX_24 Por USB0
+Exec=sh -c 'cd /home/pi/ea5sw/MMDVMHost-ini/Nextion_EA4GAX; python ./nextion.py EA4GAX_24-ini.tft /dev/ttyS2'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/rt3.png
+Name[es_ES]=Mod EA4GAX_24 Por S2
+Comment[es_ES]=Mod EA4GAX_24 Por S2

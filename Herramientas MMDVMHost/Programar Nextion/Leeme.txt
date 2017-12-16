@@ -1,0 +1,3 @@
+Podemos programar la nextion por dos puertos diferentes, recordemos que los cables tx rx irán cruzados.
+Si tenemos conectada la nextion por el puerto S2, directamente pulsaremos el icono que pone por "S2", se abrirá una terminal y empezará a meter el fichero correspondiente tft, esperamos que termine, la ventana se cerrará sola.
+Si queremos programar la nextion por el puerto USB necesitaremos un conversor usb-ttl, lo conectaremos y pulsaremos el icono que hace referencia "por USB0".

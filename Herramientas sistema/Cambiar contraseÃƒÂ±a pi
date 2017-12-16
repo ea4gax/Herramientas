@@ -1,0 +1,9 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Cambiar contraseña pi
+Name=Cambiar contraseña pi
+Comment=Cambiar contraseña pi
+Exec=sh -c 'sudo passwd pi'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/llave.jpg

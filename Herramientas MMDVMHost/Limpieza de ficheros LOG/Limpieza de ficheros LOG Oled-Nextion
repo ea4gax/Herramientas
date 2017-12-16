@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Limpieza de ficheros LOG Nextion/OLED
+Name=Limpieza de ficheros LOG Nextion/OLED
+Comment=Limpieza de ficheros LOG Oled/Nextion
+Exec=sh -c 'cd /home/pi/MMDVMHost-devel; chmod 777 *.log && rm *.log'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/BM.png
+Name[es_ES]=Limpieza de ficheros LOG Nextion/OLED

@@ -1,0 +1,9 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Cambiar contraseña VNC Server
+Name=Cambiar contraseña VNC Server
+Comment=Cambiar contraseña pi
+Exec=sh -c 'vncpasswd'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/llave.jpg

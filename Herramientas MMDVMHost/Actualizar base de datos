@@ -1,0 +1,11 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Actualizar base de datos
+Name=Actualizar base de datos
+Comment=Brandmeister
+Exec=sh -c 'cd /home/pi/md380tools; sudo make updatedb flashdb'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/BM.png
+
+Name[es_ES]=Actualizar base de datos del Wakie

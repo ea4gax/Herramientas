@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Limpieza de ficheros LOG BM Libre
+Name=Limpieza de ficheros LOG BM Libre
+Comment=Limpieza de ficheros LOG BM Libre
+Exec=sh -c 'cd /home/pi/MMDVMHost-libre; chmod 777 *.log && rm *.log'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/BM.png
+Name[es_ES]=Limpieza de ficheros LOG BM Libre

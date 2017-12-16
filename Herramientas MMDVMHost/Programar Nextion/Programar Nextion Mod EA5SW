@@ -1,0 +1,11 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Programar Nextion Mod EA5SW
+Name=Editar Programar Nextion Mod EA5SW
+Comment=Programar Nextion Mod EA5SW
+Exec=sh -c 'cd /home/pi/ea5sw/MMDVMHost-ini/Nextion_EA5SW; python ./nextion.py EA5SW_24.tft /dev/ttyUSB0'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/rt3.png
+Name[es_ES]=Mod EA5SW_24 Por USB0
+Comment[es_ES]=Programar Nextion Mod EA5SW

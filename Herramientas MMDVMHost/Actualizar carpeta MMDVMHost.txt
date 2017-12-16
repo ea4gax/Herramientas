@@ -1,0 +1,7 @@
+1 - En primer lugar abrimos una consola (icono primero de la izquierda de abajo del escritorio, el que tiene forma de monitor).
+
+2-  Entramos a la carpeta MMDVMHost, con el siguiente comando cd /home/pi/MMDVMHost.
+
+3 - Escribimos los siguientes comandos con este orden, primero make clean, pulsamos enter, dejamos que acabe, escribimos git pull, pulsamos enter, dejamos que termine y por último escribimos make, este último nos compilará la nueva versión, dejamos que termine, (tardará unos minutos).
+
+4 - Cerramos la ventana y ya podemos abrir nuestro MMDVMHost desde el icono del escritorio.

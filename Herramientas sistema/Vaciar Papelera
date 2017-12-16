@@ -1,0 +1,10 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Papelera
+Name=Vaciar Papelera
+Comment=Papelera
+Exec=sh -c 'cd ~/.local/share/Trash/files/; sudo rm -rf ~/.local/share/Trash/files/*'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/empty-trash.png
+Name[es_ES]=Vaciar papelera

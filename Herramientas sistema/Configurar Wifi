@@ -1,0 +1,9 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Configurar Wifi
+Name=Configurar Wifi
+Comment=Configurar Wifi
+Exec=sh -c 'nmtui'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/wifi.jpg

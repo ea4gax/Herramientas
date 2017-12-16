@@ -1,0 +1,9 @@
+[Desktop Entry]
+TryExec=lxterminal
+GenericName=Cambiar contraseña root
+Name=Cambiar contraseña root
+Comment=Cambiar contraseña root
+Exec=sh -c 'sudo passwd root'
+Terminal=true
+Type=Application
+Icon=/home/pi/botones/llave.jpg

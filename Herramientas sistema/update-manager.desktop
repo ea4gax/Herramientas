@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=Software Updater
+Icon=system-software-update
+URL=/usr/share/applications/update-manager.desktop
